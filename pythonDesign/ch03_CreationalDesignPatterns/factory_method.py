@@ -3,7 +3,8 @@
 """
 Implementing the Factory Method Pattern
 
-The main critique that veteran Python developers often express toward the factory method pattern is that it can be considered over-engineered or unnecessarily complex for many use cases.
+The main critique that veteran Python developers often express toward the factory method pattern is that it can 
+be considered over-engineered or unnecessarily complex for many use cases.
 
 
 """

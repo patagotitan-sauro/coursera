@@ -2,7 +2,9 @@
 """
 # The Abstract Factory Pattern
 
-The abstract factory pattern is a generalization of the factory method idea. Basically, an abstract factory is a (logical) group of factory methods, where each factory method is responsible for generating a different kind of object.
+The abstract factory pattern is a generalization of the factory method idea. 
+Basically, an abstract factory is a (logical) group of factory methods, where each 
+factory method is responsible for generating a different kind of object.
 
 # Real-world Examples
 

@@ -3,7 +3,9 @@
 """
 # The Builder Pattern
 
-We just covered the first two creational patterns, the factory method and the abstract factory, which both offer approaches to improve the way we create objects in nontrivial cases.
+We just covered the first two creational patterns, the factory method and the 
+abstract factory, which both offer approaches to improve the way we create objects in 
+nontrivial cases.
 
 ## Real-world Examples
 
@@ -11,13 +13,21 @@ In our everyday life, the builder design pattern is used in fast-food restaurant
 The same procedure is always used to prepare a burger and the packaging (box and paper 
 bag), even if there are many kinds of burgers (classic, cheeseburger, and more) 
 and different packages (small-sized box, medium-sized box, and so forth). 
-The difference between a classic burger and a cheeseburger is in the representation and not in the construction procedure. In this case, the director is the cashier who gives instructions about what needs to be prepared to the crew, and the builder is the person from the crew who takes care of the specific order.
+The difference between a classic burger and a cheeseburger is in the representation and not 
+in the construction procedure. In this case, the director is the cashier who gives instructions 
+about what needs to be prepared to the crew, and the builder is the person from the crew who takes 
+care of the specific order.
 
 ## Comparison with the Factory Pattern
 
-At this point, the distinction between the builder pattern and the factory pattern might not be very clear. The main difference is that a factory pattern creates an object in a single step, whereas a builder pattern creates an object in multiple steps and almost always uses a director.
+At this point, the distinction between the builder pattern and the factory pattern might not be very clear. 
+The main difference is that a factory pattern creates an object in a single step, whereas a builder pattern 
+creates an object in multiple steps and almost always uses a director.
 
-The pattern is also beneficial when the object's construction process is more complex than simply setting initial values. For example, if an object's full creation involves multiple steps, such as parameter validation, setting up data structures, or even making calls to external services, the builder pattern can encapsulate this complexity.
+The pattern is also beneficial when the object's construction process is more complex than simply setting 
+initial values. For example, if an object's full creation involves multiple steps, such as parameter 
+validation, setting up data structures, or even making calls to external services, the builder pattern can 
+encapsulate this complexity.
 """
 import time
 from enum import Enum
